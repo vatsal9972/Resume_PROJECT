@@ -1,0 +1,20 @@
+.textarea-wrapper{
+    padding: 10px 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+  
+.textarea-label{
+    color: rgb(42, 31, 110);
+}
+  
+.textarea-tag{
+    width: 99%;
+    padding: 8px 4px;
+    outline: none;
+    border: 1.5px solid rgb(42, 31, 110);
+    border-radius: 8px;
+}

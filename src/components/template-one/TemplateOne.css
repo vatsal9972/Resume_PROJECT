@@ -1,0 +1,153 @@
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #b9c4d7 ;
+    font-style: sans-serif;
+}
+.uppercontainer{
+    background-color: #304c63;
+    display: flex;
+}
+
+.rightcontainer{
+    padding: 0 24px 25px 0;
+    width: 80%;
+}
+
+.leftcontainer{
+   width:20%;
+   display: grid;
+   place-items: center;
+}
+
+.lowercontainer{
+    padding: 0 20px 20px;
+}
+
+.contact p{
+    font-weight: 450;
+    margin:auto;
+    color: white;
+}
+
+.contact p:last-child {
+    margin-bottom: 0;
+}
+
+.header {
+    text-align: left;
+    /* margin-top: 40px; */
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+.header h1 {
+    font-weight: 550;
+    font-size:42px;
+    color: white;
+    margin: 0;
+    font-family:serif;
+}
+
+.skill{
+    color:rgb(87, 83, 83);
+}
+
+.skill li{
+    font-size: 15px;
+}
+
+.skills-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+.experience,
+.education {
+    margin-bottom: 30px;
+    color:rgb(87, 83, 83);
+}
+
+.experience_des li{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-size: 14px;
+}
+
+.summary h2,
+.language h2,
+.skill h2,
+.experience h2,
+.education h2 {
+    font-size: 17px;
+    font-weight: 700;
+    color:#227c9d;
+    margin: 16px auto 5px ;
+}
+
+.language p{
+    margin: 0 0 0 0;
+    color:rgb(46, 42, 42);
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.summary p,
+.skill p,
+.experience p,
+.education p {
+    color:rgb(46, 42, 42);
+    font-size: 14px;
+    margin:0 0 5px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Techskill,
+.Softskill{
+    width: 50%;
+}
+
+.Techskill h3,
+.Softskill h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Softskill ul,
+.Techskill ul{
+    margin: 0px auto 0px 0px;
+}
+
+.language ul{
+    list-style-type:disc;
+    margin: 0px auto 0px 0px;
+    color:rgb(46, 42, 42);
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.experience h3,
+.education h3 { 
+    font-size: 20px;
+    margin: 0 auto 2px ;
+}
+
+.date {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin: 0px auto 0px 0px;
+}
+
+h4{
+    margin:0 0 0 0;
+    font-weight: 400;
+    color: black;
+}
+
+

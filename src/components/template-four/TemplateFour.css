@@ -1,0 +1,173 @@
+.resumee {
+    max-width: 770px;   
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #b9c4d7;
+    font-style: sans-serif;
+ 
+}
+
+.headerr {
+    text-align: left;
+    margin-top: 40px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.headerr h1 {
+    font-weight: 550;
+    font-size:42px;
+    color: black;
+    margin: 0;
+}
+
+
+.skiill{
+    color:rgb(87, 83, 83);
+}
+
+.skiills-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+.experiencee,
+.educaation {
+    margin-bottom: 30px;
+    color:rgb(87, 83, 83);
+}
+.educaation p{
+    font-size: 2px;
+    color: aqua;
+}
+
+.experiencee h2,
+.educaation h2,.projects h2,.achivements h2 ,
+.summaryy h2,
+.skiill h2{
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(28, 28, 28);
+    margin: 22px auto 12px ;
+
+}
+
+.summaryy p,
+.experiencee p,
+.educaation p {
+    color:rgb(46, 42, 42);
+    font-size: 14px;
+   
+}
+
+.achivements p{
+    font-size: 15px;
+    color: black;
+}
+.Techskiill h3,
+.Softskiill h3{
+    margin-top: 0px;
+    color: rgb(18, 88, 65);
+    margin-bottom: 0px;
+}
+
+.Softskiill ol,
+.Techskiill ol{
+    margin: 3px auto 0px 0px;
+}
+
+
+.experiencee h3,
+.educaation h3 { 
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.date {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.ul {
+    list-style: disc;
+    margin-left: 20px;   
+}
+
+.contactt p{
+    color: rgb(76, 76, 76);
+    font-weight: 450;
+    margin:auto;
+}
+
+.contactt p:last-child {
+    margin-bottom: 0;
+}
+.projects p{
+    color: black;
+}
+
+.separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+  }
+
+.experience-education-container {
+    display: flex;
+    justify-content: space-between; 
+  }
+.experiencee{
+    flex: 1;
+  }
+  .educaation{
+    flex: 1;
+  }
+  .projects-achievements-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .projects{
+    flex: 1;
+  }
+.achivements{
+    flex: 1;
+}
+.languagee {
+    display: flex;
+    align-items: center;}
+  
+  .languages-list {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .language-item {
+    background-color: #f0f0f0; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 12;
+  
+  }
+  .Techskiill,
+.Softskiill{
+    width: 30%;
+}
+.experience h4,.educaation h4{
+    font-size: 18px;
+}
+  
+.image-containerr {
+    float: right; 
+    width: 25%; 
+    margin-top: 30px;
+  }
+  .first-name{
+    font-weight: 800;
+  }
+  .last-name{
+    font-weight: 400;
+  }

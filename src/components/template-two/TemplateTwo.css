@@ -1,0 +1,100 @@
+.Resume {
+  max-width: 770px;
+  margin: 20px auto auto 2px;
+  padding: 15px;
+  border: 2px solid #8d9095;
+}
+.Resume h1,
+.textContainer h1{
+    color:black;
+    font-weight: 700;
+    margin:auto 0px 10px 0px;
+}
+.textContainer p,
+.achivement p,
+.project p,
+.aboutme p{
+  color:black;
+  font-size: 13px;
+  font-style: italic;
+  margin:5px 0px 0px 0px;
+}
+.Resume p{
+  color:black;
+  font-size: 13px;
+  font-style: italic;
+  margin:5px 0px 0px 0px;
+}
+
+.headerContainer{
+  justify-items: left;
+  justify-content: flex-start;
+  display:flex;
+}
+.textContainer{
+  width:750px;
+}
+
+.imageContainer {
+  margin-right:auto ;
+  border-radius: 50px;
+  width:20%;
+  display:grid;
+  place-items: center;
+}
+
+
+.educationclass h2,
+.aboutme h2,
+.skillclass h2,
+.experienceclass h2,
+.languageclass h2,
+.achivement h2,
+.project h2{
+  color:black;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  margin: 10px auto 0px;
+  font-style: normal;
+}
+.educationclass p,
+.experienceclass p,
+.languageclass p{
+  color: black;
+  font-size: 13px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:5px auto 
+ 
+}
+.skill1 p,
+.skill2 p{
+  color: black;
+  font-size: 10px;
+  margin: 1px auto 1px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.skill1 li,
+.skill2 li,
+.expDescription li
+{
+  color:black;
+  margin: 0 0 0 5px;
+  font-size: 14px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.skill1 h4,
+.skill2 h4{
+  margin: auto 5px 2px 0px;
+}
+.experienceclass h2{
+  margin:10px auto;
+}
+.collegename p,
+.companyname p{
+  font-weight: 600;
+  font-size: 16px;
+  margin:5px 0px 0px 0px;
+}
+.project h3{
+  margin: 1px 0px 2px;
+}

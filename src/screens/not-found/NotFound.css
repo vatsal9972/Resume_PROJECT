@@ -1,0 +1,34 @@
+.notfound{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh !important;
+}
+
+h1,p{
+    color: red;
+}
+
+.try-again {
+    background-color: rgb(252, 60, 60); /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-left: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.try-again:hover {
+    background-color: red;
+   
+}  

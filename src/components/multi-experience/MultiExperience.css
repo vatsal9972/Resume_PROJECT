@@ -1,0 +1,8 @@
+.experience-input-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap; 
+  margin: 14px 0;
+}

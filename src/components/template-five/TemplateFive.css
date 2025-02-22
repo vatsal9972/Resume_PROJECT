@@ -1,0 +1,164 @@
+.resume1 {
+  max-width: 800px;
+  margin: 20px auto; 
+  padding: 20px;
+  border: 1px solid #b9c4d7;
+  font-style: sans-serif;
+  display: flex;
+  flex: 1;
+}
+.myimg{
+  position: relative;
+  bottom: -18px;
+  left: 65px;
+  /* border-radius: 40px; /* Makes the element a circle */
+ /* overflow :auto; */
+  /* border-radius: 50%; */
+}
+
+.head {
+  font-family: sans-serif;
+  padding-left: 70px;
+  position: relative;
+  top: 14px;
+  right: 67px;
+}
+
+.head h1 {
+  font-weight: 550;
+  font-size: 25px;
+  color: black;
+  font-family: 'Times New Roman';
+  text-decoration: underline;
+}
+
+.cont p {
+  margin: auto;
+  color:black;
+  position: relative;
+}
+
+.cont {
+  position: relative;
+  left: 2px;
+  bottom: -16px;
+}
+
+.cont h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: black;
+}
+
+.cont span {
+  color:black;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sklls-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 0px;
+}
+
+.exp,
+.edu {
+  margin-bottom: 30px;
+  color: black;
+}
+
+.sum h2,
+.exp h2,
+.skll h2,
+.edu h2,
+.lang h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: black;
+  margin: 22px auto 12px;
+  text-decoration: underline;
+}
+.lang p {
+  margin: 0 0 0 0;
+  color: black;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sum p,
+.exp p,
+.edu p,
+.skll p{
+  color: rgb(46, 42, 42);
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Tskill,
+.Sskill {
+  width: 60%;
+}
+
+.Tskill h3,
+.Sskill h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.Sskill ul,
+.Tskill ul {
+  margin: 10px auto 0px 0px;
+}
+
+.lan ul {
+  list-style-type: disc;
+  margin: 0px auto 0px 0px;
+  color: black;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.exp h3,
+.edu h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.dates {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.sidepages {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.lside {
+  width: auto;
+  height: 100%;
+  position: relative;
+  /* background-color: whitesmoke; */
+  /* background-color: rgb(187, 187, 187); */
+  justify-content: left;
+  padding-left: 10px;
+  flex: 1;
+}
+
+.rside {
+  height: 100%;
+  position: relative;
+  justify-content: left;
+  border-left: 2px solid black;
+  padding-left: 10px;
+  flex: 2;
+}

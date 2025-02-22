@@ -1,0 +1,171 @@
+.resume2 {
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 0;    
+    font-style: sans-serif;
+}
+
+
+.mypfimg {
+    margin-right:auto ;
+    border-radius: 50px;
+    width:20%;
+    display:grid;
+    place-items: center;
+ }
+
+.top2 {
+    background-color: #0D0D0D;
+    height: 147px;
+    margin-left: 10px;
+    display: flex;
+    color: white;
+    position: relative;
+}
+
+.header2 {
+    font-family: sans-serif;
+    padding-left: 78px;
+    position: relative;
+    top: -20px;
+    width:70%;
+    right: 67px;
+}
+
+.header2 h1 {
+    font-weight: 550;
+    font-size: 42px;
+    color: white;
+    font-family: 'Times New Roman';
+    text-decoration: underline;
+}
+
+.cont2 {
+    position: relative;
+    left: 10px;
+    bottom: 6px;
+}
+
+.cont2 span {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dn {
+    padding-left: 10px;
+    display: flex;
+    flex: 1;
+}
+
+.skill2 {
+    color: rgb(87, 83, 83);
+}
+
+.expn,
+.edun {
+    margin-bottom: 30px;
+    color: rgb(87, 83, 83);
+}
+
+.summary2 h2,
+.lng h2,
+.skill2 h2,
+.expn h2,
+.edun h2 {
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    margin: 22px auto 12px;
+    text-decoration: underline;
+}
+
+
+.lng p {
+    margin: 0 0 0 0;
+    color: rgb(46, 42, 42);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.summary2 p,
+.skill2 p,
+.expn p,
+.edun p {
+    color: rgb(46, 42, 42);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.edun ul li {
+    color: rgb(46, 42, 42);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Techskl,
+.Softskl {
+    width: 60%;
+}
+
+.Techskl h3,
+.Softskl h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Softskl ul,
+.Techskl ul {
+    margin: 0px auto 0px 0px;
+}
+
+.lng ul {
+    list-style-type: disc;
+    margin: 0px auto 0px 0px;
+    color: rgb(46, 42, 42);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.expn h3,
+.edun h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.date2 {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.sides2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.lftside {
+    height: 100%;
+    position: relative;
+    background-color: rgb(187, 187, 187);
+    justify-content: left;
+    padding-left: 10px;
+    background-color: rgb(187, 187, 187);
+    flex: 1;
+}
+
+.rgtside {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    justify-content: left;
+    padding-left: 10px;
+    border-left: 2px solid black;
+    flex: 2;
+} 

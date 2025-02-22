@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    color:black;
+    height: 70px;
+    padding: 0 20px;
+    box-shadow: 3px 3px 3px rgb(225, 225, 225);
+}
+
+.img-wrappper{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
